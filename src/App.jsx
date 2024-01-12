@@ -11,7 +11,7 @@ function App() {
   </>
 
   const date = new Date();
-  let day = date.getDay();
+  let day = date.getDay()
 
   useEffect(() => {
     if (localStorage.day != day) {
@@ -19,7 +19,7 @@ function App() {
       localStorage.day = day
       localStorage.estado = false
     } else {
-      setEstado(localStorage.estado)
+      setEstado(localStorage.estado === 'true')
     }
   }, [])
 
