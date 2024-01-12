@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <h4>{estado ? 'Ya fuiste al Gym estas mas Guap@ 🍑💪' : btn} </h4>
+      <h4>{estado ? 'Ya fuiste al Gym estas mas Guap@ 🍑💪 !' : btn} </h4>
     </>
   )
 }
